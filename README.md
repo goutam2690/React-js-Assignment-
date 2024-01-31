@@ -1,8 +1,23 @@
-# React + Vite
+n# TV Show React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React JS application that fetches TV show data from the TVMaze API and displays it in a two-screen format. The first screen shows a list of TV shows, and the second screen provides details, including the summary, for a selected show.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches TV show data from the TVMaze API.
+- Displays a list of TV shows on the main screen.
+- Clicking on a show redirects the user to a details screen showing the summary of the selected show.
+- Basic styling using Bootstrap for a clean and responsive UI.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/goutam2690/React-js-Assignment-.git
+
+2. Install Dependencies
+   - npm i
+     
+2. Run the Application
+   - npm run dev
